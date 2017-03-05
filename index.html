@@ -1,33 +1,35 @@
-<html>
+<html lang='en'>
 <head>
-<title>Login/signup</title>
-    
+
+<title>Login/Signup</title>
+
+<meta charset='utf-8'>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-    
-    
+
+
 <link rel="stylesheet" href="assets/main.css">
 <script src="assets/main.js"></script>
-    
+
     <style>
-        
+
         body{
             background:  url("bg.jpg") no-repeat center center fixed;
         }
-        
+
     </style>
-    
-    
+
+
 </head>
 <body>
 
-    
+
     <div class="loginForm">
-        <form action="/action_page.php">
-                
+        <form action="/action_page.php" method='post'> <!--added method-->
 
             <div class="container">
                 <label><b>Username</b></label>
@@ -36,9 +38,9 @@
                 <label><b>Password</b></label>
                 <input type="password" placeholder="Enter Password" name="psw" required>
                     <br>
-                
+
             </div>
-            
+
             <div class="container" style="background-color:transparent"><br>
                 <button type="submit">Login</button><br>
                 <input type="checkbox" checked="checked"> Remember me<br>
@@ -47,11 +49,11 @@
             </div>
         </form>
       </div>
-    
-    
-    
-    
-    
+
+
+
+
+
 </body>
 
 

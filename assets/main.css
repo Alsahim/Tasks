@@ -3,9 +3,10 @@ body{
     width: 100vw;
     overflow-y: hidden;
     overflow-x: hidden;
-    font-family: 'Roboto', sans-serif;
-}   
-    
+    font-family: 'Raleway', sans-serif; /*Changed font-size and font family for time being*/
+    font-size: 30
+}
+
 
 
 .loginForm{
